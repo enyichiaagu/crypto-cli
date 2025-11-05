@@ -8,8 +8,8 @@
 		"node": ">=16"
 	},
 	"scripts": {
-		"build": "babel --out-dir=dist source",
-		"dev": "babel --out-dir=dist --watch source",
+		"build": "babel --out-dir=dist src",
+		"dev": "babel --out-dir=dist --watch src",
 		"test": "prettier --check . && xo && ava"
 	},
 	"files": [
